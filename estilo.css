@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    width: 70vw;
+}
+.um{
+    background-color: #0d2337;
+    height: 100vh;
+    width: 30%;
+}
+.foto-perfil{
+    border: solid 20px #22566b;
+    border-radius: 50%;
+}
+.foto-perfil img{
+    width: 100px;
+}
+.dados h1{
+    color: #ffffff;
+}
+.dois{
+    background-color: #f4f4f4;
+    width: 70%;
+}
