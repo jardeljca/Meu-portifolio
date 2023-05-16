@@ -14,7 +14,8 @@ body{
 .foto-perfil img{
     width: 100px;
 }
-.dados h1{
+.dados h1, h4{
+    font-family: Playfair Display;
     color: #ffffff;
 }
 .dois{
