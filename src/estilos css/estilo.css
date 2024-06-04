@@ -1,6 +1,13 @@
+html{
+    background-color: green;
+    display: flex
+    ;
+}
+
 body{
     display: flex;
     width: 70vw;
+    background-color: red;
 }
 .um{
     background-color: #0d2337;
