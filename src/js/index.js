@@ -14,11 +14,11 @@ if (larguraDaJanela < 560) {
   
     botaoMenu.addEventListener("click", () => {
       header.style.display = "none";
-      menuNav.style.display = "block";
+      menuNav.style.display = "flex";
     });
 
     botaoMenuX.addEventListener("click", () => {
       menuNav.style.display = "none";
-      header.style.display = "block";
+      header.style.display = "flex";
     });
 }
