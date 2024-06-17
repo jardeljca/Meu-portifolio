@@ -1,5 +1,12 @@
+:root {
+  --color-fundo1: #000;
+  --color-fundo2: #050505;
+  --primary-color: #f59000;
+  --secondary-color: #fff;
+}
+
 html {
-  background-color: #000;
+  background-color: var(--color-fundo1);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -9,7 +16,7 @@ body {
   width: 100vw;
   height: 100vh;
   font-family: Kode Mono;
-  background-color: #000;
+  background-color: var(--color-fundo1);
 }
 
 /*Cabeçalho*/
@@ -27,7 +34,7 @@ header .header{
 }
 header h1 {
   font-size: 7vw;
-  color: #fff;
+  color: var(--secondary-color);
   margin: 0;
   opacity: 0;
   transform: scale(0.8);
@@ -50,7 +57,7 @@ header nav{
     background-color: #000;
     width: 100vw;
     height: 100vh;
-    color: #fff;
+    color: var(--secondary-color);
     margin-top: 10px;
 }
 header .tiluloNav{
@@ -76,6 +83,12 @@ nav ul p{
   margin-top: 20px;
 }
 
+/* main */
+main{
+  display: flex;
+  flex-direction: column;
+}
+
 /* Section em geral*/
 section{
   width: 100vw;
@@ -84,12 +97,12 @@ section{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: #fff;
-  padding-top: 40px;
+  color: var(--secondary-color);
+  padding: 40px;
 }
 section h2{
   font-size: 5vw;
-  color: #f59000;
+  color: var(--primary-color);
 }
 
 /*Apresentação*/
@@ -100,7 +113,7 @@ section h2{
   font-size: 3vw;
 }
 .apresentacao .circulo{
-  background-color: #f59000;
+  background-color: var(--primary-color);
   width: 60vw;
   height: 60vw;
   border-radius: 50%;
@@ -145,3 +158,25 @@ section h2{
   top: 40%;
   left: 80%;
 }
+
+/* section quem sou eu */
+.quemSouEu{
+  background-color: var(--color-fundo2);
+}
+.quemSouEu .circulo{
+  background-color: var(--primary-color);
+  width: 60vw;
+  height: 60vw;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  margin-top: 30px;
+}
+.quemSouEu img{
+  width: 40vw;
+  height: 40vh;
+  position: absolute;
+  top: -20%;
+  left: 17%;
+}
+
