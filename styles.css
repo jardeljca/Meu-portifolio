@@ -114,11 +114,6 @@ nav {
   background-image: var(--gradient-1);
 }
 
-/* .nav__logo {
-  padding: 9px 12px;
-  font-size: 1.2rem;
-} */
-
 .nav__bar a {
   font-size: 1.2rem;
   font-weight: 600;
@@ -259,12 +254,8 @@ nav {
   background-image: var(--gradient-2);
   border-radius: 1rem;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
-}
 
-.service__card span {
-  display: inline-block;
-  margin-bottom: 1rem;
-  font-size: 2rem;
+  background-color: blue;
 }
 
 .service__card h4 {
