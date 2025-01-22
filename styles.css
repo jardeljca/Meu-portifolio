@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
 
-/* Padronização de cores e tamaanho de display */
+/* Padronização de cores e tamanho de display */
 :root {
   --primary-color: #eb3d02;
   --secondary-color: #3e1000;
@@ -41,6 +41,7 @@
   font-size: 2rem;
   font-weight: 700;
   text-align: center;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
 }
 
 /* Estiliza o corpo das descrições   */
@@ -89,12 +90,14 @@ body {
   scroll-behavior: smooth; /* Adiciona um efeito de rolagem suave, gostei muito disso */
 }
 
+/* Body em geral */
 body {
   font-family: "Montserrat", sans-serif;
   color: var(--white);
   background-image: var(--gradient-1);
 }
 
+/* Sessão nav */
 nav {
   position: fixed;
   isolation: isolate;
@@ -118,6 +121,7 @@ nav {
   font-size: 1.2rem;
   font-weight: 600;
   color: var(--white);
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
 }
 
 .nav__menu__btn {
@@ -148,6 +152,7 @@ nav {
 .nav__links a {
   color: var(--white);
   transition: 0.3s;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
 }
 
 .nav__links a:hover {
@@ -158,6 +163,7 @@ nav {
   display: none;
 }
 
+/* Sessão header container */
 .header__container {
   padding-top: 8rem;
   display: grid;
@@ -173,6 +179,8 @@ nav {
   margin-bottom: 1rem;
   font-size: 3rem;
   text-align: center;
+  /* Aplicar uma sombra preta */
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
 }
 
 .header__content .section__description {
@@ -201,6 +209,7 @@ nav {
   transform: translate(50%, -50%) rotate(90deg);
 }
 
+/* Sessão about */
 .about__container {
   display: grid;
   gap: 2rem;
@@ -242,6 +251,27 @@ nav {
   margin-bottom: 2rem;
 }
 
+/* Sessão stacks */
+.stacks__container {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.stacks__container .stacks{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.stacks__container .stacks img {
+  width: 80px;
+}
+
+/* Sessão service */
 .service__grid {
   margin-top: 2rem;
   display: grid;
@@ -267,6 +297,7 @@ nav {
   line-height: 2rem;
 }
 
+/* Sessão contact */
 .contact__container {
   text-align: center;
 }
@@ -300,6 +331,7 @@ nav {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
+/* Footer */
 .footer {
   padding: 1rem;
   font-size: 0.9rem;
@@ -307,6 +339,7 @@ nav {
   text-align: center;
 }
 
+/* Primeira media para responsividade */
 @media (width > 576px) {
   .service__grid {
     grid-template-columns: repeat(2, 1fr);
@@ -322,6 +355,7 @@ nav {
   }
 }
 
+/* Segunda media para responsividade */
 @media (width > 768px) {
   nav {
     padding: 2rem 1rem;
