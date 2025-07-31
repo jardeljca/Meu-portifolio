@@ -1,2 +1,3 @@
-# Personal_Portfolio_28-11-23
-Create a stunning and professional portfolio website from scratch with this step-by-step tutorial!
+Esse é meu portifólio pessoal desenvolvido em html, css  java script
+
+Nele constam informações sobre quem sou, meus contatos e redes sociais, bem como alguns projetos pessoais
